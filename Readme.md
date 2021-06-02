@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Павел Соколов](https://up.htmlacademy.ru/javascript/23/user/1554153).
-* Наставник: `Александр Пинаев` https://htmlacademy.ru/profile/id1075973.
+* Наставник: [Александр Пинаев] (https://htmlacademy.ru/profile/id1075973).
 
 ---
 
