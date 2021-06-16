@@ -1,7 +1,7 @@
 // #1 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function getRandomInt(min, max) {
   if(min < 0 || max < 0){
-    return false;
+    return undefined;
   }
   min = Math.ceil(min);
   max = Math.floor(max);
