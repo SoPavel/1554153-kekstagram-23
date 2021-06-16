@@ -2,12 +2,12 @@
 function getRandomInt(min, max) {
   if(min < 0 || max < 0){
     return false;
-  } else{
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min)) + min;
   }
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
 }
+
 
 getRandomInt(200, 130);
 
