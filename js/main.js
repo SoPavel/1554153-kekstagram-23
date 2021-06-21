@@ -1,19 +1,22 @@
 
-// #1
 
-function myNumber(min,max) 
-{
-const randNumber = Math.random() * (max-min);
-randNumber = Math.round(randNumber);
-return randNumber;
-}
-myNumber(3, 10);
-
-// #2
-
-function getCeilNumber(min, max) {
-    return Math.ceil(Math.random()* (max - min) - min);
+// #1 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+function getRandomInt(min, max) {
+  if(min < 0 || max < 0){
+    return undefined;
   }
-  getCeilNumber(10, 20);
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
 
-//   Оба примера придумывал сам
+
+getRandomInt(200, 130);
+
+
+// #2 Исправил!
+function checkLength(string, maxLength) {
+  return (string.length <= maxLength);
+}
+
+checkLength();
